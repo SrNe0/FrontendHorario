@@ -1,0 +1,50 @@
+.mcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83.8vh;;
+    background-color: #f1f1ff;
+    background: radial-gradient(circle, #16125615 45%, transparent 15%) 0 0 / 7px 7px;
+    
+}
+
+.content{
+    width: 50%;
+    display: flex;
+    align-self: center;
+    border-radius: 15px;
+    background-color: #f7fbefcc;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    padding: 35px 30px;
+    margin-top: 80px;
+}
+
+.content-body{
+    width: 100%;
+    justify-content: center;
+}
+
+.btn{
+    font-size: 20px;
+}
+
+.logout-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.logout-container button{
+    transform: scale(1.25);
+}
+
+.title{
+    font-size: 2.5em;
+    margin: 0px;
+}
+
+.fi-br-power{
+    font-family: uicons-bold-rounded;
+    font-size: 0.9em;
+}
