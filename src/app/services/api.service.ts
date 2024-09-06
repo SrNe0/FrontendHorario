@@ -16,7 +16,7 @@ export class ApiService{
       if (hostname.startsWith('100.112.') || hostname === 'localhost') {
         this.dataUrl = this.ipData.tailScaleApiUrl;
       } else {
-        this.dataUrl = "https://nlidiwtb1i.sharedwithexpose.com";
+        this.dataUrl = "https://lrdvqdir30.sharedwithexpose.com";
       }
     } else {
       this.dataUrl = this.ipData.localApiUrl;
